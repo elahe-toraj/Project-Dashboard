@@ -1,0 +1,25 @@
+.sidebar {
+    background-color: var(--clr-primary);
+    width: 260px;
+    padding: 36px 20px;
+    transition: var(--transition-default);
+}
+.user-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 16px;
+}
+.info-name{
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--clr-white);
+    text-transform: uppercase;
+}
+.info-img{
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

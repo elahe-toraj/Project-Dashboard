@@ -8,7 +8,7 @@ const Sidebar = () => {
           <div className="info-img img-fit-cover">
               <img src={ personsImgs.person_two } alt="profile image" />
           </div>
-          <span className="info-name">Elahe Toraj</span>
+          <span className="info-name">کاربر</span>
       </div>
 
       <nav className="navigation">
