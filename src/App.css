@@ -8,15 +8,15 @@
 
 :root {
   --clr-primary: #29221d;
-  --clr-primar-light: #473b33;
+  --clr-primary-light: #473b33; /* اصلاح نام متغیر */
   --clr-secondary: #1e1611;
   --clr-white: #fff;
   --clr-black: #000;
-  --clr-pumpkin: #fe6c00;
+  --clr-pumpkin: #00a9fed4;
   --clr-silver: #a8a5a6;
   --clr-silver-v1: #bdbabb;
   --clr-scarlet: #fe1e00;
-  --clr-scarlet-v1: rgb(254, 30, 0, 0.79);
+  --clr-scarlet-v1: rgba(254, 30, 0, 0.79);
   --clr-green: #00fe93;
   --clr-yellow: #fec80a;
   --clr-jet: #302924;
@@ -29,6 +29,9 @@ body {
   font-family: var(--font-family-bai);
   direction: rtl;
   text-align: right;
+  background-color: var(--clr-secondary);
+  color: var(--clr-white);
+  min-height: 100vh;
 }
 
 ul {
@@ -36,9 +39,8 @@ ul {
 }
 
 a {
-  color: unset;
-  text-decoration: none;
   color: var(--clr-white);
+  text-decoration: none;
 }
 
 button {
@@ -80,4 +82,12 @@ button {
 .app {
   display: flex;
   min-height: 100vh;
+  width: 100vw;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: var(--clr-secondary);
 }
