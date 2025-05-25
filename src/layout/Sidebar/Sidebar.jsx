@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useEffect, useState, useContext } from "react";
 import { NavLink } from "react-router-dom";
-import "./Sidebar.css"; 
 import { personsImgs } from '../../utils/images';
 import { navigationLinks } from '../../data/data';
+import { SidebarContext } from '../../context/sidebarContext';
+import "./Sidebar.css";
 
 const Sidebar = () => {
+  const { isSidebarOpen } = useContext(SidebarContext);
+  const [sidebarClass, setSidebarClass] = useState("");
+
+  useEffect(() => {
+    if (isSidebarOpen) {
+      setSidebarClass('sidebar-change');
+    } else {
+      setSidebarClass('');
+    }
+  }, [isSidebarOpen]);
+
   return (
-    <div className="sidebar">
+    <div className={`sidebar ${sidebarClass}`}>
       <div className="user-info">
         <div className="info-img img-fit-cover">
           <img src={personsImgs.person_two} alt="profile image" />
@@ -23,7 +35,7 @@ const Sidebar = () => {
                 className={({ isActive }) =>
                   `nav-link ${navigationLink.id} ${isActive ? "active" : ""}`
                 }
-                end={navigationLink.path === '/'} // فقط مسیر روت دقیق match شود
+                end={navigationLink.path === '/'}
               >
                 <img
                   src={navigationLink.image}

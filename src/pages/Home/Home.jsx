@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
+import Content from "../../components/ContentTop/Content/Content";
 
 const Home = () => {
   return (
-    <div>
-      <h1>صفحه خانه</h1>
-      <p>خوش آمدید به داشبورد!</p>
-    </div>
+    <Content title="Home">
+      <p>خوش آمدید به صفحه اصلی!</p>
+    </Content>
   );
 };
 

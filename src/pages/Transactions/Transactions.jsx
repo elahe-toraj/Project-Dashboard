@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Content from "../../components/ContentTop/Content/Content";
 
-function Transactions() {
+const Transactions = () => {
   return (
-    <div>Transactions</div>
-  )
-}
+    <Content title="Transactions">
+      <p>تراکنش‌های شما</p>
+    </Content>
+  );
+};
 
-export default Transactions
+export default Transactions;

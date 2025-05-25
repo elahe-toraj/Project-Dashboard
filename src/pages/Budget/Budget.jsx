@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Content from "../../components/ContentTop/Content/Content";
 
-function Budget() {
+const Budget = () => {
   return (
-    <div>Budget</div>
-  )
-}
+    <Content title="Budget">
+      <p>صفحه بودجه شما</p>
+    </Content>
+  );
+};
 
-export default Budget
+export default Budget;
