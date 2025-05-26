@@ -34,7 +34,7 @@
   margin-right: 6px;
 }
 .grid-c6 .grid-item-progress {
-  background-color: var(--clr-primar-light);
+  background-color: var(--clr-primary-light);
   height: 10px;
   border-radius: 100vh;
   margin-top: 8px;
@@ -42,6 +42,6 @@
 .grid-c6 .grid-item-fill {
   width: 60%;
   height: 10px;
-  background-color: var(--clr-pumpkin);
+  background-color: var(--clr-blue-neon);
   border-radius: 100vh;
 }
