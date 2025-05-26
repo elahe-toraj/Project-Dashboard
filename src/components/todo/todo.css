@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap");
+
+.todo-theme {
+  --clr-primary: #29221d;
+  --clr-primary-light: #473b33;
+  --clr-secondary: #1e1611;
+  --clr-white: #fff;
+  --clr-pumpkin: #fe6c00;
+  --clr-silver-v1: #bdbabb;
+  --clr-yellow: #fec80a;
+  --font-family-bai: "Bai Jamjuree", sans-serif;
+
+  font-family: var(--font-family-bai);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  background-color: var(--clr-secondary);
+  font-family: var(--font-family-bai);
+  color: var(--clr-white);
+  direction: rtl;
+  text-align: right;
+  padding: 1rem;
+
+}
+
+.todo-theme .container {
+  width: 100%;
+  max-width: 540px;
+  background-color: var(--clr-primary);
+  border-radius: 12px;
+  padding: 2.5rem 3rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
+}
+
+
+ h2 {
+  display: flex;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: var(--clr-pumpkin);
+}
+
+.todo-theme .todo_app h2 img {
+  width: 30px;
+  margin-left: 0.7rem;
+}
+
+.todo-theme .row {
+  display: flex;
+  background-color: var(--clr-primary-light);
+  border-radius: 30px;
+  margin-bottom: 2.5rem;
+  align-items: center;
+}
+
+.todo-theme input[type="text"] {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  color: var(--clr-white);
+  font-weight: 400;
+}
+
+.todo-theme input::placeholder {
+  color: var(--clr-silver-v1);
+}
+
+.todo-theme button {
+  background-color: var(--clr-pumpkin);
+  color: var(--clr-white);
+  border: none;
+  border-radius: 40px;
+  padding: 1rem 3.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.todo-theme button:hover {
+  background-color: var(--clr-yellow);
+}
+
+.todo-theme ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.todo-theme ul li {
+  position: relative;
+  padding: 1rem 1rem 1rem 3.8rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  user-select: none;
+  color: var(--clr-white);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background-color: var(--clr-primary-light);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.todo-theme ul li:hover {
+  background-color: var(--clr-primary);
+}
+
+.todo-theme ul li::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(50%);
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-image: url("./images/unchecked.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.todo-theme ul li.checked {
+  color: var(--clr-silver-v1);
+  text-decoration: line-through;
+}
+
+.todo-theme ul li.checked::before {
+  background-image: url("./images/checked.png");
+}
+
+.todo-theme ul li span {
+position: absolute;
+right: 90%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 36px;
+  font-size: 22px;
+  color: var(--clr-silver-v1);
+  line-height: 36px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.todo-theme ul li span:hover {
+  background-color: var(--clr-primary);
+  color: var(--clr-pumpkin);
+}

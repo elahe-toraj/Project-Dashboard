@@ -1,10 +1,11 @@
 import React from "react";
 import Content from "../../components/ContentTop/Content/Content";
+import TodoApp from "../../components/todo/TodoApp";
 
 const Budget = () => {
   return (
     <Content title="Budget">
-      <p>صفحه بودجه شما</p>
+      <TodoApp />
     </Content>
   );
 };
