@@ -1,20 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap");
 
 .todo-theme {
-  --clr-primary: #29221d;
-  --clr-primary-light: #473b33;
-  --clr-secondary: #1e1611;
+  --clr-primary: #040c2c;
+  --clr-primar-light: #0b9ac5;
+  --clr-secondary: #07060f;
   --clr-white: #fff;
-  --clr-pumpkin: #fe6c00;
-  --clr-silver-v1: #bdbabb;
-  --clr-yellow: #fec80a;
+  --clr-pumpkin: #2f00cb;
+  --clr-silver-v1: #bdbabb --clr-yellow: #0a2ffe;
   --font-family-bai: "Bai Jamjuree", sans-serif;
 
   font-family: var(--font-family-bai);
   display: flex;
   justify-content: center;
-  align-items: flex-start; 
-  min-height: 80vh; 
+  align-items: flex-start;
+  min-height: 80vh;
   background-color: var(--clr-secondary);
   color: var(--clr-white);
   direction: rtl;
@@ -36,7 +35,7 @@
 }
 
 
- h2 {
+h2 {
   display: flex;
   font-weight: 600;
   font-size: 1.8rem;
@@ -134,8 +133,8 @@
 }
 
 .todo-theme ul li span {
-position: absolute;
-right: 90%;
+  position: absolute;
+  right: 90%;
   top: 50%;
   transform: translateY(-50%);
   width: 36px;

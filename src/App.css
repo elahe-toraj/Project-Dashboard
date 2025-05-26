@@ -7,20 +7,20 @@
 }
 
 :root {
-  --clr-primary: #29221d;
-  --clr-primar-light: #473b33;
-  --clr-secondary: #1e1611;
-  --clr-white: #fff;
-  --clr-black: #000;
-  --clr-pumpkin: #fe6c00;
+  --clr-primary: #040c2c;             
+  --clr-primary-light: #0b9ac5;      
+  --clr-secondary: #07060f;           
+  --clr-white: #ffffff;
+  --clr-black: #000000;
   --clr-silver: #a8a5a6;
-  --clr-silver-v1: #bdbabb;
-  --clr-scarlet: #fe1e00;
-  --clr-scarlet-v1: rgb(254, 30, 0, 0.79);
-  --clr-green: #00fe93;
-  --clr-yellow: #fec80a;
-  --clr-jet: #302924;
-  --clr-peach: #ffc397;
+  --clr-silver-alt: #bdbabb;
+  --clr-jet: #282430;               
+  --clr-blue-neon: #BBFBFF;           
+  --clr-blue-glow: rgba(0, 8, 254, 0.79); 
+  --clr-red-neon: #fe0800;            
+  --clr-blue-deep: #0a2ffe;          
+  --clr-purple-electric: #2f00cb;     
+  --clr-cyan-soft: #4ED7F1;           
   --font-family-bai: "Bai Jamjuree", sans-serif;
   --transition-default: all 300ms ease-in-out;
 }
@@ -61,7 +61,7 @@ button {
 }
 
 .text-silver-v1 {
-  color: var(--clr-silver-v1);
+  color: var(--clr-silver-alt);
 }
 
 .text-scarlet {
