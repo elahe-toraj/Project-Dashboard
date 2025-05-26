@@ -1,32 +1,32 @@
+داشبورد ادمین (Admin Dashboard)
+این پروژه با عشق و علاقه به برنامه‌نویسی ساخته شده است.
+در حال حاضر، تنها صفحه‌ی خانه (Home) آن کامل شده و در آینده، سایر صفحات و امکانات به تدریج توسعه داده خواهند شد.
 
-*Admin Dashboard*
-This project is built with passion and dedication to programming.
-Currently, only the Home page is completed, and the rest of the pages and features will be developed gradually in the future.
-
-Technologies
+تکنولوژی‌ها
 React
 
 Vite
 
-Current Status
-Home page is fully completed.
+وضعیت فعلی پروژه
+صفحه‌ی خانه تکمیل شده است.
 
-Maintenance section is under development.
+بخش تعمیرات (Maintenance) در دست توسعه می‌باشد.
 
-Future Plans and Features
-Adding user bank account management with balance tracking for better financial oversight
+ایده‌ها و برنامه‌های آینده
+افزودن بخش مدیریت شماره حساب‌های کاربران به همراه نمایش موجودی‌ها برای بهبود مدیریت مالی
 
-Developing a work interaction and monthly reporting section to support business growth
+طراحی بخشی برای تعاملات کاری و گزارش‌های ماهانه جهت رشد و پیشرفت کسب‌وکار
 
-Providing work reports to track tasks and achieve goals
+ارائه گزارش‌های کاری برای پیگیری فعالیت‌ها و رسیدن به اهداف تعیین‌شده
 
-Task categorization and prioritization for better organization
+طبقه‌بندی و اولویت‌بندی وظایف به منظور سازماندهی بهتر کارها
 
-Creating an expense management section
+ایجاد بخشی برای مدیریت مخارج و هزینه‌ها
 
-Managing social media investments, including budgeting for advertising and analyzing returns for each platform
+مدیریت سرمایه‌گذاری‌ها در شبکه‌های اجتماعی، شامل بودجه‌بندی تبلیغات و بررسی میزان بازدهی هر شبکه
 
-Collaborative projects with the ability to link and work with other users
+توسعه پروژه‌های همکاری و امکان لینک شدن با افراد دیگر برای کارهای مشترک
 
-Project Goal
-This dashboard is designed as a practical tool to assist in managing work and social activities more effectively.
+هدف پروژه
+این داشبورد به عنوان ابزاری کاربردی طراحی شده که می‌تواند به بهبود روند کاری و فعالیت‌های اجتماعی کمک کند و مدیریت بهتری را فراهم آورد.
+
