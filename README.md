@@ -1,12 +1,32 @@
-# React + Vite
+Admin Dashboard
+This project is built with passion and dedication to programming.
+Currently, only the Home page is completed, and the rest of the pages and features will be developed gradually in the future.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Technologies
+React
 
-Currently, two official plugins are available:
+Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Current Status
+Home page is fully completed.
 
-## Expanding the ESLint configuration
+Maintenance section is under development.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Future Plans and Features
+Adding user bank account management with balance tracking for better financial oversight
+
+Developing a work interaction and monthly reporting section to support business growth
+
+Providing work reports to track tasks and achieve goals
+
+Task categorization and prioritization for better organization
+
+Creating an expense management section
+
+Managing social media investments, including budgeting for advertising and analyzing returns for each platform
+
+Collaborative projects with the ability to link and work with other users
+
+Project Goal
+This dashboard is designed as a practical tool to assist in managing work and social activities more effectively.
+
