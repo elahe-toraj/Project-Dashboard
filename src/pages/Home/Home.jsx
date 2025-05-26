@@ -1,10 +1,11 @@
 import React from "react";
 import Content from "../../components/ContentTop/Content/Content";
+import ContentMain from "../../components/ContentMain/ContentMain";
 
 const Home = () => {
   return (
-    <Content title="Home">
-      <p>خوش آمدید به صفحه اصلی!</p>
+    <Content title="خانه">
+      <ContentMain />
     </Content>
   );
 };

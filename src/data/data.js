@@ -17,21 +17,21 @@ export const navigationLinks = [
 export const transactions = [
     {
         id: 11, 
-        name: "Sarah Parker",
+        name: "سارا غلامی",
         image: personsImgs.person_four,
         date: "23/12/04",
         amount: 22000
     },
     {
         id: 12, 
-        name: "Krisitine Carter",
+        name: "مبینا رنجبر",
         image: personsImgs.person_three,
         date: "23/07/21",
         amount: 20000
     },
     {
         id: 13, 
-        name: "Irene Doe",
+        name: "ملیکا اسلامی",
         image: personsImgs.person_two,
         date: "23/08/25",
         amount: 30000
@@ -41,31 +41,31 @@ export const transactions = [
 export const reportData = [
     {
         id: 14,
-        month: "Jan",
+        month: "فروردین",
         value1: 45,
         value2: null
     },
     {
         id: 15,
-        month: "Feb",
+        month: "اردیبهشت",
         value1: 45,
         value2: 60
     },
     {
         id: 16,
-        month: "Mar",
+        month: "خرداد",
         value1: 45,
-        value2: null
+        value2: 60
     },
     {
         id: 17,
-        month: "Apr",
+        month: "تیر",
         value1: 45,
         value2: null
     },
     {
         id: 18,
-        month: "May",
+        month: "مرداد",
         value1: 45,
         value2: null
     }
@@ -76,31 +76,31 @@ export const budget = [
         id: 19, 
         title: "Subscriptions",
         type: "Automated",
-        amount: 22000
+        amount: 220000
     },
     {
         id: 20, 
         title: "Loan Payment",
         type: "Automated",
-        amount: 16000
+        amount: 160000
     },
     {
         id: 21, 
         title: "Foodstuff",
         type: "Automated",
-        amount: 20000
+        amount: 200000
     },
     {
         id: 22, 
         title: "Subscriptions",
         type: null,
-        amount: 10000
+        amount: 100000
     },
     {
         id: 23, 
         title: "Subscriptions",
         type: null,
-        amount: 40000
+        amount: 400000
     }
 ];
 
@@ -109,19 +109,19 @@ export const subscriptions = [
         id: 24,
         title: "LinkedIn",
         due_date: "23/12/04",
-        amount: 20000
+        amount: 8000000
     },
     {
         id: 25,
         title: "Netflix",
         due_date: "23/12/10",
-        amount: 5000
+        amount: 5000000
     },
     {
         id: 26,
-        title: "DSTV",
+        title: "inestagaram",
         due_date: "23/12/22",
-        amount: 2000
+        amount: 2000000
     }
 ];
 
@@ -129,9 +129,9 @@ export const savings = [
     {
         id: 27,
         image: personsImgs.person_one,
-        saving_amount: 250000,
-        title: "Pay kid bro’s fees",
+        saving_amount: 25000000,
+        title: "پروژه شرکتی",
         date_taken: "23/12/22",
-        amount_left: 40000
+        amount_left: 400000
     }
 ];
