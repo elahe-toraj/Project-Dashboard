@@ -3,8 +3,8 @@ import Content from "../../components/ContentTop/Content/Content";
 
 const Transactions = () => {
   return (
-    <Content title="Transactions">
-      <p>تراکنش‌های شما</p>
+    <Content title="تعاملات">
+    
     </Content>
   );
 };
