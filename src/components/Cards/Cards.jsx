@@ -36,11 +36,9 @@ const Cards = () => {
     <div className="grid-one-item grid-common grid-c1">
       <div className="grid-c-title">
         <h3 className="grid-c-title-text">کارت ها</h3>
-        {/* دکمه افزودن حذف شده */}
       </div>
 
       <div className="grid-c1-content">
-        {/* نمایش کارت‌های ثبت‌شده */}
         {cards.map((card, idx) => (
           <div className="card-wrapper" key={idx}>
             <span className="card-pin-hidden">{card.number}</span>
@@ -48,7 +46,6 @@ const Cards = () => {
           </div>
         ))}
 
-        {/* اینپوت همیشه نمایش داده می‌شود */}
         <input
           type="text"
           value={inputValue}

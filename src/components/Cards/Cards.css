@@ -12,8 +12,6 @@
   flex: 1;
   border-radius: 10px;
   padding: 16px;
-
-  /* این خط‌ها رو اضافه کن برای وسط‌چین کردن عمودی و افقی */
   display: flex;
   flex-direction: column;
   justify-content: center;
