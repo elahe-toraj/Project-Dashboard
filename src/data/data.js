@@ -4,12 +4,12 @@ import { personsImgs } from "../utils/images";
 export const navigationLinks = [
     { id: 1, title: 'خانه', image: iconsImgs.home, path: '/' },
     { id: 2, title: 'کارهای روزانه', image: iconsImgs.budget, path: '/budget' },
-    { id: 3, title: 'Transactions', image: iconsImgs.plane, path: '/transactions' },
-    { id: 4, title: 'Subscriptions', image: iconsImgs.wallet, path: '/subscriptions' },
-    { id: 5, title: 'Loans', image: iconsImgs.bills, path: '/loans' },
-    { id: 6, title: 'Reports', image: iconsImgs.report, path: '/reports' },
-    { id: 7, title: 'Savings', image: iconsImgs.wallet, path: '/savings' },
-    { id: 8, title: 'Financial Advice', image: iconsImgs.wealth, path: '/financial-advice' },
+    { id: 3, title: 'تعاملات', image: iconsImgs.plane, path: '/transactions' },
+    { id: 4, title: 'توضیحات', image: iconsImgs.wallet, path: '/subscriptions' },
+    { id: 5, title: 'اعضای گروه', image: iconsImgs.bills, path: '/loans' },
+    { id: 6, title: 'گزارش کار', image: iconsImgs.report, path: '/reports' },
+    { id: 7, title: 'دستاورد', image: iconsImgs.wallet, path: '/savings' },
+    { id: 8, title: 'مشاوره', image: iconsImgs.wealth, path: '/financial-advice' },
     { id: 9, title: 'پروفایل', image: iconsImgs.user, path: '/account' },
     { id: 10, title: 'تنظیمات', image: iconsImgs.gears, path: '/settings' }
 ];

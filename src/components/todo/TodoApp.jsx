@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./todo.css"; // حتما فایل CSS رو ایمپورت کن
+import "./todo.css"; 
 
 export default function TodoApp() {
   const [todos, setTodos] = useState([

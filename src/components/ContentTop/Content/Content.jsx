@@ -1,5 +1,5 @@
 import React from "react";
-import ContentTop from "../ContentTop";  // چون ContentTop.jsx در فولدر بالاتر هست
+import ContentTop from "../ContentTop";
 import "./Content.css";
 
 const Content = ({ title, children }) => {

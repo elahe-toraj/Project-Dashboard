@@ -1,11 +1,15 @@
-.main-content {
-  background-color: var(--clr-secondary);
-  flex: 1;
-  padding: 32px;
+.main-content-top {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 60px;
+  background-color: var(--clr-primary);
+  border-radius: 12px;
+  margin-bottom: 24px;
 }
-
 @media screen and (max-width: 1400px) {
   .main-content {
     padding-left: 20px;
