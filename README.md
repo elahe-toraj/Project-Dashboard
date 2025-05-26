@@ -1,33 +1,37 @@
-داشبورد ادمین (Admin Dashboard)
-این پروژه با عشق و علاقه به برنامه‌نویسی ساخته شده است.
-در حال حاضر، تنها صفحه‌ی خانه (Home) آن کامل شده و در آینده، سایر صفحات و امکانات به تدریج توسعه داده خواهند شد.
 
-تکنولوژی‌ها:
+Admin Dashboard:
+
+
+This project is built with passion and dedication to programming.
+Currently, only the Home page is completed, and the rest of the pages and features will be developed gradually in the future.
+
+Technologies:
 
 React
 
 Vite
 
-وضعیت فعلی پروژه:
-صفحه‌ی خانه تکمیل شده است.
+Current Status:
 
-بخش تعمیرات (Maintenance) در دست توسعه می‌باشد.
+Home page is fully completed.
 
-ایده‌ها و برنامه‌های آینده
-افزودن بخش مدیریت شماره حساب‌های کاربران به همراه نمایش موجودی‌ها برای بهبود مدیریت مالی
+Maintenance section is under development.
 
-طراحی بخشی برای تعاملات کاری و گزارش‌های ماهانه جهت رشد و پیشرفت کسب‌وکار
+Future Plans and Features
+Adding user bank account management with balance tracking for better financial oversight
 
-ارائه گزارش‌های کاری برای پیگیری فعالیت‌ها و رسیدن به اهداف تعیین‌شده
+Developing a work interaction and monthly reporting section to support business growth
 
-طبقه‌بندی و اولویت‌بندی وظایف به منظور سازماندهی بهتر کارها
+Providing work reports to track tasks and achieve goals
 
-ایجاد بخشی برای مدیریت مخارج و هزینه‌ها
+Task categorization and prioritization for better organization
 
-مدیریت سرمایه‌گذاری‌ها در شبکه‌های اجتماعی، شامل بودجه‌بندی تبلیغات و بررسی میزان بازدهی هر شبکه
+Creating an expense management section
 
-توسعه پروژه‌های همکاری و امکان لینک شدن با افراد دیگر برای کارهای مشترک
+Managing social media investments, including budgeting for advertising and analyzing returns for each platform
 
-هدف پروژه
-این داشبورد به عنوان ابزاری کاربردی طراحی شده که می‌تواند به بهبود روند کاری و فعالیت‌های اجتماعی کمک کند و مدیریت بهتری را فراهم آورد.
+Collaborative projects with the ability to link and work with other users
 
+Project Goal:
+
+This dashboard is designed as a practical tool to assist in managing work and social activities more effectively.
