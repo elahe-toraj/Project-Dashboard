@@ -4,7 +4,7 @@ import TodoApp from "../../components/todo/TodoApp";
 
 const Budget = () => {
   return (
-    <Content title="Budget">
+    <Content title="کار های روزانه">
       <div style={{ display: "flex", justifyContent: "center", width: "100%" }}>
         <TodoApp />
       </div>

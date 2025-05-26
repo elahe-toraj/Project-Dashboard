@@ -5,15 +5,8 @@ import bankPrefixes from "../../data/bankPrefixes";
 
 const Cards = () => {
   const [cards, setCards] = useState([]);
-  const [inputVisible, setInputVisible] = useState(false);
   const [inputValue, setInputValue] = useState("");
   const [bankName, setBankName] = useState("");
-
-  const handleToggleInput = () => {
-    setInputVisible((prev) => !prev);
-    setInputValue("");
-    setBankName("");
-  };
 
   const handleChange = (e) => {
     const value = e.target.value.replace(/\D/g, "").slice(0, 16);
@@ -36,7 +29,6 @@ const Cards = () => {
       setCards((prev) => [...prev, { number: masked, bank }]);
       setInputValue("");
       setBankName("");
-      setInputVisible(false);
     }
   };
 
@@ -44,15 +36,11 @@ const Cards = () => {
     <div className="grid-one-item grid-common grid-c1">
       <div className="grid-c-title">
         <h3 className="grid-c-title-text">کارت ها</h3>
-        <button className="grid-c-title-icon" onClick={handleToggleInput}>
-          <img src={iconsImgs.plus} />
-        </button>
+        {/* دکمه افزودن حذف شده */}
       </div>
 
       <div className="grid-c1-content">
-        <p>موجودی</p>
-        <div className="lg-value">12,000,000ريال</div>
-
+        {/* نمایش کارت‌های ثبت‌شده */}
         {cards.map((card, idx) => (
           <div className="card-wrapper" key={idx}>
             <span className="card-pin-hidden">{card.number}</span>
@@ -60,28 +48,25 @@ const Cards = () => {
           </div>
         ))}
 
-        {inputVisible && (
-          <>
-            <input
-              type="text"
-              value={inputValue}
-              onChange={handleChange}
-              onKeyDown={handleKeyDown}
-              placeholder="شماره کارت ۱۶ رقمی را وارد کنید"
-              style={{
-                width: "100%",
-                marginTop: "0.5rem",
-                padding: "0.4rem",
-                borderRadius: "8px",
-                border: "1px solid #ccc",
-              }}
-            />
-            {bankName && (
-              <p className="text text-sm text-silver-v1" style={{ marginTop: "0.25rem" }}>
-                بانک: {bankName}
-              </p>
-            )}
-          </>
+        {/* اینپوت همیشه نمایش داده می‌شود */}
+        <input
+          type="text"
+          value={inputValue}
+          onChange={handleChange}
+          onKeyDown={handleKeyDown}
+          placeholder="شماره کارت ۱۶ رقمی را وارد کنید"
+          style={{
+            width: "100%",
+            marginTop: "0.5rem",
+            padding: "0.4rem",
+            borderRadius: "8px",
+            border: "1px solid #ccc",
+          }}
+        />
+        {bankName && (
+          <p className="text text-sm text-silver-v1" style={{ marginTop: "0.25rem" }}>
+            بانک: {bankName}
+          </p>
         )}
       </div>
     </div>

@@ -8,11 +8,18 @@
       rgba(66, 59, 55, 0.6) 3.49%,
       rgba(66, 59, 55, 0) 34.7%
     ),
-    linear-gradient(138.58deg, rgba(59, 43, 30, 0.37) 43.56%, #fea767 112.68%);
+    linear-gradient(138.58deg, rgba(31, 30, 59, 0.37) 43.56%, #67a1fe 112.68%);
   flex: 1;
   border-radius: 10px;
   padding: 16px;
+
+  /* این خط‌ها رو اضافه کن برای وسط‌چین کردن عمودی و افقی */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 .grid-c1-content .lg-value {
   margin-top: 8px;
   margin-bottom: 16px;

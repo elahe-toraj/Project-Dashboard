@@ -43,24 +43,24 @@ export const reportData = [
         id: 14,
         month: "فروردین",
         value1: 45,
-        value2: null
+        value2: 60,
     },
     {
         id: 15,
         month: "اردیبهشت",
         value1: 45,
-        value2: 60
+        value2: 70
     },
     {
         id: 16,
         month: "خرداد",
         value1: 45,
-        value2: 60
+        value2: null
     },
     {
         id: 17,
         month: "تیر",
-        value1: 45,
+        value1: 70,
         value2: null
     },
     {
