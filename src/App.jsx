@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import Budget from "./pages/Budget/Budget";
 import Transactions from "./pages/Transactions/Transactions";
 import { SidebarProvider } from './context/sidebarContext';
+import Account from './pages/Account/Account';
 
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/budget" element={<Budget />} />
             <Route path="/transactions" element={<Transactions />} />
+            <Route path="/account" element={<Account />} />  
           </Routes>
         </main>
       </div>
