@@ -107,12 +107,16 @@ export default function TodoApp() {
       </div>
 
       {/* پیشرفت کلی */}
-      <div className="progress-card">
+      <div className="todo-progress-card">
         <p>پیشرفت کلی: {progress}%</p>
-        <div className="progress-bar">
-          <div className="progress-fill" style={{ width: `${progress}%` }}></div>
+        <div className="todo-progress-bar">
+          <div
+            className="todo-progress-fill"
+            style={{ width: `${progress}%` }}
+          ></div>
         </div>
       </div>
+
     </div>
   );
 }

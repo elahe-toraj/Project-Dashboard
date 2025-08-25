@@ -71,7 +71,7 @@ body {
   color: #22aac5;
 }
 
-.progress-card {
+.todo-progress-card {
   background-color: #ffffff;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   border-radius: 12px;
@@ -80,20 +80,20 @@ body {
   margin: auto;
 }
 
-.progress-card p {
+.todo-progress-card p {
   text-align: center;
   margin-bottom: 10px;
   font-weight: 500;
 }
 
-.progress-bar {
+.todo-progress-bar {
   background-color:  #062049;
   height: 12px;
   border-radius: 6px;
   overflow: hidden;
 }
 
-.progress-fill {
+.todo-progress-fill {
   background-color: #52d0ea;
   height: 100%;
   border-radius: 6px;
@@ -101,8 +101,8 @@ body {
 }
 
 .task-left span {
-  color: #000; 
+  color: #000000; 
 }
-.progress-card p{
+.todo-progress-card p{
   color: #000;
 }
