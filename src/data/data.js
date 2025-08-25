@@ -136,4 +136,10 @@ export const savings = [
     }
 ];
 
-
+export const userData = {
+  firstName: "علی",
+  lastName: "محمدی",
+  nationalId: "1234567890",
+  phone: "09120000000",
+  email: "ali@example.com",
+};
