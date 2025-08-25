@@ -1,60 +1,58 @@
 .account-container {
-  padding: 20px;
-  direction: rtl;
-  font-family: sans-serif;
-}
-
-.account-title {
-  font-size: 22px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.info-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15px 30px;
-  margin-bottom: 20px;
-}
-
-.info-item {
+  width: 100%;
+  min-height: calc(100vh - 100px); 
+  padding: 40px;
   display: flex;
-  justify-content: space-between;
-  background: #f5f5f5;
-  padding: 10px 15px;
-  border-radius: 8px;
+  flex-direction: column;
+  gap: 24px;
+  background: transparent;
 }
-
-.email-section,
-.resume-section,
-.password-section {
+.account-title {
+  font-size: 24px;
+  font-weight: bold;
   margin-bottom: 20px;
+  text-align: right;
 }
 
-.email-section input {
-  margin: 0 10px;
-  padding: 6px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+.account-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
 }
 
-.btn {
-  padding: 8px 15px;
+.account-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.account-field label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.account-field input {
   border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  background: #007bff;
+  border-bottom: 2px solid #ffffff;
+  padding: 8px;
+  outline: none;
+  background: transparent;
+  color: #ffffff;
+}
+
+.change-password-btn {
+  align-self: flex-start;
+  background-color: #1111fe;
   color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
 }
 
-.btn:hover {
-  background: #0056b3;
-}
-
-.btn.danger {
-  background: #dc3545;
-}
-
-.btn.danger:hover {
-  background: #a71d2a;
+.change-password-btn:hover {
+  background-color: #0a0ab8;
 }

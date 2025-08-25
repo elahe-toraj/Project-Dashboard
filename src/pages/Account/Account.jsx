@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { userData } from "../../data/data";
+import Content from "../../components/ContentTop/Content/Content";
 import "./Account.css";
 
-export default function Account() {
+const Account = () => {
   const [email, setEmail] = useState(userData.email);
   const [resume, setResume] = useState(null);
 
@@ -10,58 +11,47 @@ export default function Account() {
     setResume(e.target.files[0]);
   };
 
-  const handleChangePassword = () => {
-    alert("لینک تغییر رمز عبور برای شما فعال شد!");
-  };
-
   return (
-    <div className="account-container">
-      <h1 className="account-title">پروفایل کاربر</h1>
-
-      {/* اطلاعات کاربری */}
-      <div className="info-grid">
-        <div className="info-item">
-          <label>نام:</label>
-          <span>{userData.firstName}</span>
+    <Content title="پروفایل کاربر">
+      <div className="account-container">
+        <div className="account-grid">
+          <div className="account-field">
+            <label>نام</label>
+            <input type="text" value={userData.firstName} disabled />
+          </div>
+          <div className="account-field">
+            <label>نام خانوادگی</label>
+            <input type="text" value={userData.lastName} disabled />
+          </div>
+          <div className="account-field">
+            <label>شماره ملی</label>
+            <input type="text" value={userData.nationalId} disabled />
+          </div>
+          <div className="account-field">
+            <label>شماره تماس</label>
+            <input type="text" value={userData.phone} disabled />
+          </div>
         </div>
-        <div className="info-item">
-          <label>نام خانوادگی:</label>
-          <span>{userData.lastName}</span>
-        </div>
-        <div className="info-item">
-          <label>شماره ملی:</label>
-          <span>{userData.nationalId}</span>
-        </div>
-        <div className="info-item">
-          <label>شماره تماس:</label>
-          <span>{userData.phone}</span>
-        </div>
-      </div>
 
-      {/* تغییر ایمیل */}
-      <div className="email-section">
-        <label>ایمیل:</label>
-        <input
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <button className="btn">ذخیره ایمیل</button>
-      </div>
+        <div className="account-field">
+          <label>ایمیل</label>
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </div>
 
-      {/* آپلود رزومه */}
-      <div className="resume-section">
-        <label>رزومه:</label>
-        <input type="file" onChange={handleResumeUpload} />
-        {resume && <p>رزومه انتخاب‌شده: {resume.name}</p>}
-      </div>
+        <div className="account-field">
+          <label>رزومه</label>
+          <input type="file" onChange={handleResumeUpload} />
+          {resume && <p>فایل انتخاب‌شده: {resume.name}</p>}
+        </div>
 
-      {/* تغییر رمز */}
-      <div className="password-section">
-        <button className="btn danger" onClick={handleChangePassword}>
-          تغییر رمز عبور
-        </button>
+        <button className="change-password-btn">تغییر رمز عبور</button>
       </div>
-    </div>
+    </Content>
   );
-}
+};
+
+export default Account;
