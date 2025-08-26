@@ -4,7 +4,7 @@ import { personsImgs } from "../utils/images";
 export const navigationLinks = [
     { id: 1, title: 'خانه', image: iconsImgs.home, path: '/' },
     { id: 2, title: 'کارهای روزانه', image: iconsImgs.budget, path: '/budget' },
-    { id: 3, title: 'تعامل ها', image: iconsImgs.plane, path: '/transactions' },
+    { id: 3, title: 'تعاملات', image: iconsImgs.plane, path: '/transactions' },
     { id: 4, title: 'توضیحات', image: iconsImgs.wallet, path: '/subscriptions' },
     { id: 5, title: 'اعضای گروه', image: iconsImgs.bills, path: '/loans' },
     { id: 6, title: 'گزارش کار', image: iconsImgs.report, path: '/reports' },
