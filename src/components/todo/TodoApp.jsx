@@ -36,7 +36,6 @@ export default function TodoApp() {
       <h1 className="title">برنامه کاری من</h1>
 
       <div className="grid">
-        {/* امروز */}
         <div className="card">
           <h2>امروز</h2>
           {tasks.today.map((task) => (
@@ -58,8 +57,6 @@ export default function TodoApp() {
             </div>
           ))}
         </div>
-
-        {/* این هفته */}
         <div className="card">
           <h2>این هفته</h2>
           {tasks.week.map((task) => (
@@ -82,7 +79,6 @@ export default function TodoApp() {
           ))}
         </div>
 
-        {/* این ماه */}
         <div className="card">
           <h2>این ماه</h2>
           {tasks.month.map((task) => (
@@ -106,7 +102,6 @@ export default function TodoApp() {
         </div>
       </div>
 
-      {/* پیشرفت کلی */}
       <div className="todo-progress-card">
         <p>پیشرفت کلی: {progress}%</p>
         <div className="todo-progress-bar">

@@ -1,19 +1,18 @@
 import React, { useState } from "react";
 import { userData } from "../../data/data";
-import Content from "../../components/ContentTop/Content/Content";
+import ContentTop from "../../components/ContentTop/ContentTop";
+import ResumeUpload from "../../components/ResumeUpload/ResumeUpload";
 import "./Account.css";
-
 const Account = () => {
   const [email, setEmail] = useState(userData.email);
-  const [resume, setResume] = useState(null);
-
-  const handleResumeUpload = (e) => {
-    setResume(e.target.files[0]);
-  };
 
   return (
-    <Content title="پروفایل کاربر">
+    <div className="account-page">
+      <ContentTop title="پروفایل کاربر" /> 
+
       <div className="account-container">
+        <h2 className="account-title">پروفایل کاربر</h2>
+
         <div className="account-grid">
           <div className="account-field">
             <label>نام</label>
@@ -42,16 +41,11 @@ const Account = () => {
           />
         </div>
 
-        <div className="account-field">
-          <label>رزومه</label>
-          <input type="file" onChange={handleResumeUpload} />
-          {resume && <p>فایل انتخاب‌شده: {resume.name}</p>}
-        </div>
+        <ResumeUpload />
 
         <button className="change-password-btn">تغییر رمز عبور</button>
       </div>
-    </Content>
+    </div>
   );
 };
-
 export default Account;
