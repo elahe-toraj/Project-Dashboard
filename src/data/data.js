@@ -17,21 +17,21 @@ export const navigationLinks = [
 export const transactions = [
     {
         id: 11, 
-        name: "سارا غلامی",
+        name: "الهه",
         image: personsImgs.person_four,
         date: "23/12/04",
         amount: 22000
     },
     {
         id: 12, 
-        name: "مبینا رنجبر",
+        name: "امیر",
         image: personsImgs.person_three,
         date: "23/07/21",
         amount: 20000
     },
     {
         id: 13, 
-        name: "ملیکا اسلامی",
+        name: "هستی",
         image: personsImgs.person_two,
         date: "23/08/25",
         amount: 30000
