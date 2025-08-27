@@ -9,7 +9,6 @@ export const navigationLinks = [
     { id: 5, title: 'اعضای گروه', image: iconsImgs.bills, path: '/loans' },
     { id: 6, title: 'گزارش کار', image: iconsImgs.report, path: '/reports' },
     { id: 7, title: 'دستاورد', image: iconsImgs.wallet, path: '/savings' },
-    { id: 8, title: 'مشاوره', image: iconsImgs.wealth, path: '/financial-advice' },
     { id: 9, title: 'پروفایل', image: iconsImgs.user, path: '/account' },
     { id: 10, title: 'تنظیمات', image: iconsImgs.gears, path: '/settings' }
 ];
