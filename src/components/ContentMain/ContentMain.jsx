@@ -7,7 +7,6 @@ import Budget from "../Budget/Budget";
 import Subscriptions from "../Subscriptions/Subscriptions";
 import Savings from "../Savings/Savings";
 import Loans from "../Loans/Loans";
-import Financial from "../Financial/Financial";
 
 const ContentMain = () => {
   return (
@@ -29,7 +28,6 @@ const ContentMain = () => {
         <div className="grid-two-item">
           <div className="subgrid-two">
             <Loans />
-            <Financial />
           </div>
         </div>
       </div>
