@@ -7,20 +7,18 @@
 }
 
 :root {
-  --clr-primary: #040c2c;             
-  --clr-primary-light: #0b9ac5;      
-  --clr-secondary: #07060f;           
+  --clr-primary: #f99f1b;             
+  --clr-primary-light: #ff914d;      
+  --clr-secondary: #fff;           
   --clr-white: #ffffff;
-  --clr-black: #000000;
-  --clr-silver: #a8a5a6;
-  --clr-silver-alt: #bdbabb;
+  --clr-black: #d86325;
   --clr-jet: #282430;               
   --clr-blue-neon: #BBFBFF;           
-  --clr-blue-glow: rgba(0, 8, 254, 0.79); 
+  --clr-blue-glow: #1565c0; 
   --clr-red-neon: #fe0800;            
-  --clr-blue-deep: #0a2ffe;          
-  --clr-purple-electric: #2f00cb;     
-  --clr-cyan-soft: #4ED7F1;           
+  --clr-blue-deep: #fe4f0a;          
+  --clr-purple-electric: #cb4400;     
+  --clr-cyan-soft: #00acc1;           
   --font-family-bai: "Bai Jamjuree", sans-serif;
   --transition-default: all 300ms ease-in-out;
 }
@@ -61,15 +59,7 @@ button {
 }
 
 .text-silver-v1 {
-  color: var(--clr-silver-alt);
-}
-
-.text-scarlet {
-  color: var(--clr-scarlet);
-}
-
-.text-green {
-  color: var(--clr-green);
+  color: #fff;
 }
 
 .bg-jet {
@@ -107,7 +97,7 @@ button {
 
 .grid-c-title-text {
   font-weight: 400;
-  color: var(--clr-silver);
+  color: #fff;
 }
 
 .grid-c-title-icon img {
