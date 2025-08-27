@@ -28,6 +28,7 @@ const ContentMain = () => {
         <div className="grid-two-item">
           <div className="subgrid-two">
             <Loans />
+            <Financial />
           </div>
         </div>
       </div>
